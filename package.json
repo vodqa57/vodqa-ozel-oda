@@ -1,0 +1,23 @@
+{
+  "name": "private-rooms",
+  "version": "1.0.0",
+  "description": ".vodqa",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "pm2 start ecosystem.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vodqa57"
+  },
+  "keywords": [
+    "vodqa"
+  ],
+  "author": "vodqa",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.17.3",
+    "fs": "^0.0.1-security"
+  }
+}
